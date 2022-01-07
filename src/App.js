@@ -4,6 +4,7 @@ import NavBar from './components/navbar';
 import RightSidebar from './components/rightSidebar';
 import SearchBox from './components/searchBox';
 import CoinCards from './components/coinCards';
+import LastActivity from './components/lastActivity';
 import { Flex } from './components/styles/variables';
 
 const AppWrapper = styled.div`
@@ -34,6 +35,7 @@ const App = () => {
 					<Flex verticalCenter className="coin-card-wrapper">
 						<CoinCards />
 					</Flex>
+					<LastActivity />
 				</main>
 			<RightSidebar />
 		</AppWrapper>
