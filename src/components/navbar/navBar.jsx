@@ -56,6 +56,9 @@ const NavWarpper = styled.nav`
 			text-transform: capitalize;
 		}
 	}
+	@media (max-width: 768px) {
+    display: none;
+  }
 `
 
 const NavBar = () => {

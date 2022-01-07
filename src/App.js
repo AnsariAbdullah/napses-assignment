@@ -17,6 +17,11 @@ const AppWrapper = styled.div`
 		padding: 35px 70px;
 		height: 100%;
 	}
+	@media (max-width: 768px) {
+    main {
+			width: 100%;
+		}
+  }
 `
 
 const Title = styled.p`
