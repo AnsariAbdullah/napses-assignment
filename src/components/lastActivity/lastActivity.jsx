@@ -38,6 +38,7 @@ const LastActivityWrapper = styled.section`
 	}
 	.row{
 		display: flex;
+		justify-content: space-between;
 		margin-top: 50px;
 	}
 `
