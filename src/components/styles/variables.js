@@ -6,6 +6,7 @@ const colors = {
 	gray: '#F9FAFF',
 	darkGray: '#ECEFF7',
 	primarySelect: '#51459E',
+	coinCardColor: '#182B73',
 }
 
 const fs = {
