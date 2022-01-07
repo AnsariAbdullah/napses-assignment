@@ -64,6 +64,10 @@ const CoinCardWrapper = styled.div`
 		font-size: ${fs.sm};
 		font-weight: 700;
 	}
+
+	@media (max-width: 425px) {
+    width: 100%;
+  }
 `
 
 const CoinCards = () => {

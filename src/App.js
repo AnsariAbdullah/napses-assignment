@@ -22,6 +22,12 @@ const AppWrapper = styled.div`
 			width: 100%;
 		}
   }
+	@media (max-width: 425px) {
+    .coin-card-wrapper {
+			display: block;
+		}
+  }
+	
 `
 
 const Title = styled.p`

@@ -38,9 +38,24 @@ const LastActivityWrapper = styled.section`
 	}
 	.row{
 		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
 		margin-top: 50px;
 	}
+	@media (max-width: 425px) {
+    .title-wrapper{
+			display: block;
+			text-align: center;
+			.edit-btn{
+				display: none;
+			}
+		}
+		.row{
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+  }
 `
 
 const Title = styled.p`
@@ -62,6 +77,9 @@ const Tile = styled.div`
 			fill: ${props => props.svgColor}
 		}
 	}
+	@media (max-width: 425px) {
+		margin-right: 0;
+	}
 `
 
 const Column = styled.div`
@@ -77,6 +95,10 @@ const Column = styled.div`
 	.col-sub-title{
 		font-size: 14px;
 		color: #6F767E;
+	}
+	@media (max-width: 425px) {
+		margin-right: 0;
+		text-align: center;
 	}
 `
 
